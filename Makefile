@@ -9,17 +9,17 @@
 #
 
 ifndef PREFIX
-PREFIX     = /usr/local
+PREFIX     = /elog-nfs
 endif
 
 ifndef MANDIR
-MANDIR     = $(ROOT)$(PREFIX)/man
+MANDIR     = $(PREFIX)/man
 endif
 
-ELOGDIR    = $(ROOT)$(PREFIX)/elog
-DESTDIR    = $(ROOT)$(PREFIX)/bin
-SDESTDIR   = $(ROOT)$(PREFIX)/sbin
-RCDIR      = $(ROOT)/etc/rc.d/init.d
+ELOGDIR    = $(PREFIX)/elog
+DESTDIR    = $(PREFIX)/bin
+SDESTDIR   = $(PREFIX)/sbin
+RCDIR      = $(PREFIX)/etc/rc.d/init.d
 
 # flag for SSL support
 USE_SSL    = 1
