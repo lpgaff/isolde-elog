@@ -1,0 +1,60 @@
+/* compact formatting */
+body {
+  margin:0px;
+}
+
+.gtab a {
+  padding-left:1px;
+  padding-right:1px;
+}
+
+.sgtab a {
+  padding-left:1px;
+  padding-right:1px;
+}
+
+.ltab a {
+  padding-left:1px;
+  padding-right:1px;
+}
+
+.sltab a {
+  padding-left:1px;
+  padding-right:1px;
+}
+
+.menuframe {
+  padding:1px;
+}
+
+.attribhead {
+  padding:1px;
+}
+
+.attribname {
+  padding:1px;
+}
+
+.attribvalue {
+  padding:1px;
+}
+
+.attribvalue2 {
+  padding:1px;
+}
+
+.messagelist {
+  padding:1px;
+}
+
+.messageframe {
+  padding:1px;
+}
+
+.errormsg {
+  padding:1px;
+}
+
+.notifymsg {
+  padding:1px;
+}
