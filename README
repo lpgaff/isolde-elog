@@ -1,15 +1,7 @@
-Welcome to the ELOG package
-===========================
+==============
+ ISOLDE e-log
+==============
 
-For general documentation, see the file "index.html" in the "doc" subdirectory,
-for installation instructions, see "adminguide.html" in the same directory,
-or consult the web page http://midas.psi.ch/elog
+This is a branch of Stephan Ritt's elog software, developed at PSI. It is modified here to run on OpenShift at CERN for the ISOLDE elogs.
 
-Please send all bug reports by electronic mail to:
-
-<stefan.ritt@psi.ch>
-
-Happy ELOG'ing!
-
-Stefan Ritt
-Jan. 2006
+Liam Gaffney (liam.gaffney@cern.ch)
