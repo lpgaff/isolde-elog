@@ -9,7 +9,7 @@
 #
 
 ifndef PREFIX
-PREFIX     = /elog-nfs
+PREFIX     = ..
 endif
 
 ifndef MANDIR
