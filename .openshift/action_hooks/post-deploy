@@ -1,0 +1,4 @@
+#!/bin/sh
+
+make install;
+../sbin/elogd -p 996 -c ../elog/elogd.cfg -D;
