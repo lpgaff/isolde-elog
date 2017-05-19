@@ -9,7 +9,7 @@
 #
 
 ifndef PREFIX
-PREFIX     = ..
+PREFIX     = /elog-nfs
 endif
 
 ifndef MANDIR
@@ -19,7 +19,7 @@ endif
 ELOGDIR    = $(PREFIX)/elog
 DESTDIR    = $(PREFIX)/bin
 SDESTDIR   = $(PREFIX)/sbin
-RCDIR      = $(PREFIX)/etc/rc.d/init.d
+RCDIR      = /etc/rc.d/init.d
 
 # flag for SSL support
 USE_SSL    = 1
@@ -213,7 +213,7 @@ ifeq ($(OSTYPE),darwin)
 else
 	@sed "s#\@PREFIX\@#$(PREFIX)#g" elogd.init_template > elogd.init
 	@if [ ! -f $(RCDIR)/elogd ]; then  \
-	  $(INSTALL) -v -m 0755 -D elogd.init $(RCDIR)/elogd ; \
+	  #$(INSTALL) -v -m 0755 -D elogd.init $(RCDIR)/elogd ; \
 	fi
 endif
 
