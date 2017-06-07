@@ -1,0 +1,3 @@
+#!/bin/sh
+
+/elog-nfs/sbin/elogd -p 9090 -c /elog-nfs/elog/elogd.cfg -D;
