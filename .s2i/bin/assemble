@@ -1,4 +1,12 @@
 #!/bin/sh
 
-cd;
-make; make install;
+# move the application source
+mv /tmp/s2i/src $HOME/src
+
+# build application artefacts
+pushd ${HOME}
+make all
+
+# install the artefacts
+make install
+popd
