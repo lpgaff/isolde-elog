@@ -1,3 +1,5 @@
 #!/bin/sh
 
+export PATH=$PATH:/image-magick-nfs/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/image-magick-nfs/lib
 /elog-nfs/sbin/elogd -p 9090 -c /elog-nfs/elog/elogd.cfg -D;
